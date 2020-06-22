@@ -35,12 +35,11 @@ export default function App () {
                     )}
                 
                 /> 
+
+                <TouchableOpacity activeOpacity={0.6} style={styles.button} onPress={handleAddProject}>
+                    <Text style={styles.buttonText}>Adicionar projeto</Text>
+                </TouchableOpacity>
             </SafeAreaView> 
-
-            <TouchableOpacity activeOpacity={0.6} style={styles.button} onPress={handleAddProject}>
-                <Text style={styles.buttonText}>Adicionar projeto</Text>
-            </TouchableOpacity>
-
 
             {/* <View style={styles.container}>
                 {projects.map(project => (
@@ -71,6 +70,6 @@ const styles = StyleSheet.create({
     },
     buttonText: {
         fontWeight: 'bold',
-        fontSize: 16
+        fontSize: 16,
     },
 })
