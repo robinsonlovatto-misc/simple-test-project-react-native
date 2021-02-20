@@ -1,10 +1,10 @@
-# react-native-concepts
-Exercise on React Native for the Bootcamp GoStack - Rocketseat
+# React Native - A simple test project 
+Exercise on React Native for the Bootcamp GoStack - Rocketseat.
 
-Retrieve the projects in an array and add new [simulated] projets with an add button.
+Add a record in the backend by clicking the button "Adicionar projeto".
+The purpose of the project was to test useState and useEffect. That way, there is no form to add new records.
 
 Some of the features used in this project: <br>
-&nbsp;&nbsp;repo https://github.com/rlovatto/NodeJS-concepts-middleware.git for the backend <br>
 &nbsp;&nbsp;React Native components<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SafeAreaView<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;Text <br>
@@ -12,3 +12,29 @@ Some of the features used in this project: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;StyleSheet <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;StatusBar <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;TouchableOpacity
+
+To install all dependencies:
+
+```
+yarn
+```
+
+To configure the Android emulator network:
+
+```
+adb reverse tcp:3333 tcp:3333
+```
+
+To run the project:
+
+```
+yarn android
+```
+
+### Node.js back-end for this project:
+
+[simple-test-project-nodejs](https://github.com/rlovatto/simple-test-project-nodejs)
+
+
+<br/><br/>
+![](Add_project.gif)
