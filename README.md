@@ -13,7 +13,13 @@ Some of the features used in this project: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;StatusBar <br> 
 &nbsp;&nbsp;&nbsp;&nbsp;TouchableOpacity
 
-To install all dependencies:
+
+### Installation
+Install and run the back-end:
+[simple-test-project-nodejs](https://github.com/rlovatto/simple-test-project-nodejs)
+
+
+To install all dependencies for this project:
 
 ```
 yarn
