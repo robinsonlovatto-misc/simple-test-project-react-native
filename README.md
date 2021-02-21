@@ -4,7 +4,7 @@ Exercise on React Native for the Bootcamp GoStack - Rocketseat.
 Add a record in the backend by clicking the button "Adicionar projeto".
 The purpose of the project was to test useState and useEffect. That way, there is no form to add new records.
 
-Some of the features used in this project: <br>
+### Some of the features used in this project: 
 &nbsp;&nbsp;React Native components<br>
 &nbsp;&nbsp;&nbsp;&nbsp;SafeAreaView<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;Text <br>
